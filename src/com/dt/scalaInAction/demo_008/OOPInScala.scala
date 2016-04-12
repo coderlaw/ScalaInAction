@@ -1,6 +1,8 @@
 package com.dt.scalaInAction.demo_008
 
-
+/**
+ * 可以
+ */
 class Teacher { //class Teacher() 也可行  不写"()"则()为类默认的无参的主构造器
   var name : String = _     //通过_ 给属性赋值表示当前没有值 不赋值则编辑报错  这种定义方式编译器会生成共有的getter/setter方法
   private var age = 27      //这种定义方式编译器会生成私有的getter/setter方法
