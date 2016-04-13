@@ -7,5 +7,8 @@ object HelloWorld {
   def main(args: Array[String]){
     //println("Hello Scala!");
     for(e <- args) println(e); 
+    
+    val s = "hello"
+    s.length()
   }
 }
