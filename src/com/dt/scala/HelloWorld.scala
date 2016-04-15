@@ -8,7 +8,7 @@ object HelloWorld {
     //println("Hello Scala!");
     for(e <- args) println(e); 
     
-    val s = "hello"
+    val s = "hel3lo"
     s.length()
   }
 }
